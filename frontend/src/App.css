@@ -1,0 +1,81 @@
+body {
+  background-color: #fbd6db; /* Fondo rosa pastel */
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  background-color: white;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+h1 {
+  color: #7d3fbf;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+}
+
+th, td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+
+th {
+  background-color: #e7c4f7; /* lila suave */
+  color: #5d2e99;
+}
+
+tr:nth-child(even) {
+  background-color: #fce4ec; /* rosado más claro */
+}
+
+button {
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button.editar {
+  background-color: #4db6ac;
+  color: white;
+  margin-right: 5px;
+}
+
+button.eliminar {
+  background-color: #ef5350;
+  color: white;
+}
+
+form {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+input {
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 150px;
+}
+
+button.crear {
+  background-color: #ab47bc;
+  color: white;
+}
+
